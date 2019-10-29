@@ -1,12 +1,11 @@
 package method;
 
-import util.PrintArray;
-import util.PrintArrayMethod;
-
 public class InsertionSort {
     /**
+     *
      * 插入排序实现
      * @param ints
+     * @return
      */
     public static int[] methodInsertionSort(int[] ints) {
         int n = ints.length;
